@@ -1,0 +1,161 @@
+ 
+.zara {
+    display: flex;
+    justify-content: space-between;
+    font-weight:1000;
+    vertical-align: top;
+    font-size: 30px;
+ }
+ .search {
+    display: flex;
+    justify-content: right;
+    vertical-align: top;
+    align-items: center;
+    font-weight:100;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} 
+
+.search-input {
+ height:30px;
+}
+
+
+ /* Style the links inside the navigation bar */
+ .search a {
+    float: left;
+    display: block;
+    color: black;
+    font-family:'Neue-Helvetica', 'Helvetica', 'Arial', Sans-Serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+  }
+.search a:hover {
+    background-color: #a9a9a9;
+    color: white;
+  }
+ /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #ECECEC;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+ 
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:22px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #a9a9a9;
+    color: white;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #a9a9a9;
+    color: black;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  .botnav {
+    background-color: #ECECEC;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+ 
+  /* Style the links inside the navigation bar */
+  .botnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  /* Change the color of links on hover */
+  .botnav a:hover {
+    background-color: #a9a9a9;
+    color: white;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .botnav a.active {
+    background-color: #a9a9a9;
+    color: black;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .botnav .icon {
+    display: none;
+  }
+
+  .pic-container {
+    display: flex;
+    /* width: 90%; */
+    justify-content: center;
+
+  }
+
+  .zara-pic {
+      width: 100%;
+      height: auto;
+  }
+  /* #zaraa-img {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+   */
+body {
+    background-color: #ECECEC;
+    color: black;
+    font-family:'Neue-Helvetica', 'Helvetica', 'Arial', Sans-Serif;
+    text-align: center;
+    font-weight: 100;
+ } 
+ label {
+    float:right;
+}
+.input {
+    display:block;
+}
+ /* 
+ #part1 {
+    display:flex;
+    justify-content: center;
+    /* text-align: left; */
+ /* } */
+  
+ /* p {
+    text-align: left;
+ }
+  
+ li {
+    text-align: left;
+ }
+  */ 
